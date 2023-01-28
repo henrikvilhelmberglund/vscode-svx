@@ -1,14 +1,19 @@
 {
-  "name": "vscode-svx",
+  "name": "vscode-svx-henrikvilhelmberglund",
   "displayName": "SVX",
   "description": "Adds language support for SVX.",
   "repository": {
-    "url": "https://github.com/sebsojeda/vscode-svx"
+    "url": "https://github.com/henrikvilhelmberglund/vscode-svx"
   },
   "license": "MIT",
   "icon": "images/icon.png",
-  "publisher": "sebsojeda",
+  "publisher": "henrikvilhelmberglund",
   "version": "1.0.0",
+  "scripts": {
+    "release": "commit-and-tag-version",
+    "postrelease": "git push --follow-tags origin main",
+    "publish": "vsce publish"
+  },
   "galleryBanner": {
     "color": "#f7f7f7",
     "theme": "light"
@@ -89,5 +94,8 @@
         }
       }
     ]
+  },
+  "devDependencies": {
+    "commit-and-tag-version": "^11.0.0"
   }
 }

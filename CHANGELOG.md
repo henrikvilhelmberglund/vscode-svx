@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.1.1](https://github.com/henrikvilhelmberglund/vscode-svx/compare/v1.1.0...v1.1.1) (2023-01-28)
+
+
+### Bug Fixes
+
+* :bug: try meta.style.svelte instead ([76733bb](https://github.com/henrikvilhelmberglund/vscode-svx/commit/76733bb4fa9dad8052851aaed5af0d6443718e69))
+
 ## 1.1.0 (2023-01-28)
 
 

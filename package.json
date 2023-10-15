@@ -33,9 +33,11 @@
           "Markdown Svelte",
           "svx"
         ],
+        "filenamePatterns": [
+          "*.svelte.md"
+        ],
         "extensions": [
-          ".svx",
-          ".svelte.md"
+          ".svx"
         ],
         "configuration": "./language-configuration.json"
       }

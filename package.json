@@ -34,7 +34,7 @@
           "svx"
         ],
         "extensions": [
-          ".svx"
+          ".svx", "svelte.md"
         ],
         "configuration": "./language-configuration.json"
       }

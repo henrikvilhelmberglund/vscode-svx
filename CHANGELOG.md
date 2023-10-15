@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.3.0](https://github.com/henrikvilhelmberglund/vscode-svx/compare/v1.2.1...v1.3.0) (2023-10-15)
+
+
+### Features
+
+* :sparkles: didn't work so trying filenamePatterns instead ([bbd31be](https://github.com/henrikvilhelmberglund/vscode-svx/commit/bbd31bef6b0ded3dca2d43e8b705c871b27d9396))
+
 ## [1.2.1](https://github.com/henrikvilhelmberglund/vscode-svx/compare/v1.2.0...v1.2.1) (2023-10-15)
 
 

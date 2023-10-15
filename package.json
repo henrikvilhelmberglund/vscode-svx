@@ -8,7 +8,7 @@
   "license": "MIT",
   "icon": "images/icon.png",
   "publisher": "henrikvilhelmberglund",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "scripts": {
     "release": "commit-and-tag-version",
     "postrelease": "git push --follow-tags origin main",
@@ -34,7 +34,8 @@
           "svx"
         ],
         "extensions": [
-          ".svx", "svelte.md"
+          ".svx",
+          "svelte.md"
         ],
         "configuration": "./language-configuration.json"
       }
